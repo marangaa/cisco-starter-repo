@@ -8,7 +8,7 @@ function IPDisplay({ version }) {
   useEffect(() => {
     const fetchIpAddress = async () => {
       try {
-          const apiEndpoint = version === 'IPv6' ? 'https://api6.ipify.org?format=json' : 'https://api64.ipify.org?format=json';
+          const apiEndpoint = version === 'IPv6' ? 'https://api64.ipify.org?format=json' : 'https://api.ipify.org?format=json';
           const response = await fetch(apiEndpoint);
           const data = await response.json()
           setIpAddress(data.ip);
