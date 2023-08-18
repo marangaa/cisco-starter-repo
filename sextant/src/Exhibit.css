@@ -1,0 +1,35 @@
+.exhibit {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exhibit h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+/* Additional styling for child components within Exhibit */
+.exhibit p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.exhibit .data-point {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.exhibit .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.exhibit .label {
+  font-weight: bold;
+}
