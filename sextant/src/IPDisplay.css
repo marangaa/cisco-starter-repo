@@ -1,0 +1,14 @@
+/* IPDisplay.css */
+.ip-display {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ip-display p {
+  margin: 0;
+  font-size: 18px;
+}
