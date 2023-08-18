@@ -1,17 +1,17 @@
+// App.js
 import React from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
-import './App.css'
+import IPAddress from './IPAddress';
+import './App.css';
 
 function App() {
   return (
     <div>
       <Banner />
-      <Exhibit heading="First Exhibit">
-        {/* Content for the first exhibit */}
-      </Exhibit>
-      <Exhibit heading="Second Exhibit">
-        {/* Content for the second exhibit */}
+      <Exhibit heading="IP Addresses">
+        <IPAddress version="v4" />
+        <IPAddress version="v6" />
       </Exhibit>
       {/* Other components and content */}
     </div>
